@@ -1,8 +1,9 @@
 # Copyright 2019 Tecnativa - Ernesto Tejeda
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
-from odoo.tests.common import TransactionCase
 from lxml import etree
+
+from odoo.tests.common import TransactionCase
 
 
 class TestPartnerContactSaleInfoPropagation(TransactionCase):

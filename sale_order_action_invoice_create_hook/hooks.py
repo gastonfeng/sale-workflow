@@ -1,10 +1,11 @@
 # Copyright 2017 Eficent Business and IT Consulting Services S.L.
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
 
+from odoo.addons.sale.models.sale import SaleOrder
+
 from odoo import _
 from odoo.exceptions import UserError
 from odoo.tools import float_is_zero
-from odoo.addons.sale.models.sale import SaleOrder
 
 
 def post_load_hook():

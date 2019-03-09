@@ -1,8 +1,9 @@
 # Copyright 2017-18 Eficent Business and IT Consulting Services S.L.
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-from odoo import api, fields, models, _
 import odoo.addons.decimal_precision as dp
+
+from odoo import api, fields, models, _
 from odoo.exceptions import ValidationError
 
 

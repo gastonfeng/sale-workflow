@@ -2,8 +2,8 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 from odoo import models, fields, api, _
-from odoo.exceptions import UserError, ValidationError
 from odoo.addons import decimal_precision as dp
+from odoo.exceptions import UserError, ValidationError
 
 
 class ProductSetAddLine(models.TransientModel):

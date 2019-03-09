@@ -1,9 +1,10 @@
 # Copyright 2016-2018 Tecnativa - Pedro M. Baeza
 # License AGPL-3 - See http://www.gnu.org/licenses/agpl-3.0.html
 
+from lxml import etree
+
 from odoo.tests import common
 from ..hooks import post_init_hook
-from lxml import etree
 
 
 class TestSalesTeamSecurity(common.SavepointCase):

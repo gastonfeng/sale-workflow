@@ -5,6 +5,7 @@
 
 import logging
 from contextlib import contextmanager
+
 from odoo import api, models
 from odoo.tools.safe_eval import safe_eval
 

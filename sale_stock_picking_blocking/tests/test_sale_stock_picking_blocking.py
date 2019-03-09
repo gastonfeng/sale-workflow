@@ -2,8 +2,8 @@
 #   (http://www.eficent.com)
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
 
-from odoo.tests import common
 from odoo.exceptions import ValidationError
+from odoo.tests import common
 
 
 class TestSaleDeliveryBlock(common.TransactionCase):

@@ -1,8 +1,8 @@
 # Copyright 2017 Sergio Teruel <sergio.teruel@tecnativa.com>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
-from odoo.tests import common
 from odoo.exceptions import ValidationError
+from odoo.tests import common
 
 
 class TestInvoicefinishedTask(common.SavepointCase):

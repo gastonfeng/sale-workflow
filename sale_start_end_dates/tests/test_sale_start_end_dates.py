@@ -1,9 +1,10 @@
 # Copyright (C) 2018 Serpent Consulting Services Pvt. Ltd.
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-from odoo.tests.common import TransactionCase
-from odoo.exceptions import ValidationError
 import datetime
+
+from odoo.exceptions import ValidationError
+from odoo.tests.common import TransactionCase
 
 
 class TestSaleStartEndDates(TransactionCase):
